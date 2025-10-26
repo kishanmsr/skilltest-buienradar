@@ -49,11 +49,7 @@ plt.tight_layout()
 plt.savefig("plots/temp_difference.png")
 plt.close()
 
-# Q8: Station map (interactive)
-import sqlite3
-import pandas as pd
-import matplotlib.pyplot as plt
-
+# Q8: Station map
 conn = sqlite3.connect("data/buienradar.db")
 stations = pd.read_sql("SELECT * FROM stations", conn)
 conn.close()
