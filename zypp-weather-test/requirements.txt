@@ -1,0 +1,7 @@
+# requirements.txt
+# Libraries needed to run ETL, automation, and visualization scripts
+requests
+pandas
+schedule
+matplotlib
+plotly
